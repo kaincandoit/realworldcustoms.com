@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IRL Customs — Real-World Builds • Streetwear • Luxury</title>
+  <meta name="description" content="IRL Customs — real-world truck builds, luxury streetwear, and custom gear." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.png" />
+  <meta property="og:title" content="IRL Customs" />
+  <meta property="og:description" content="Real-world builds. Luxury streetwear. No fluff." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/cover.jpg" />
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top">IRL<span>Customs</span></a>
+
+    <button class="burger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="links">
+      <a href="#drops">Drops</a>
+      <a href="#about">About</a>
+      <a href="#social">Social</a>
+      <a class="cta" href="#notify">Notify Me</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-inner">
+        <h1>Real-World Builds.<br><span>Luxury Streetwear.</span></h1>
+        <p>Built in real life. Worn with intent. </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#drops">View Drops</a>
+          <a class="btn ghost" href="#notify">Get Notified</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DROPS -->
+    <section id="drops" class="wrap">
+      <div class="section-head">
+        <h2>Featured Drops</h2>
+        <p>Early looks — limited runs</p>
+      </div>
+
+      <div class="grid">
+        <!-- CARD 1 -->
+        <article class="card">
+          <div class="tag">Coming Soon</div>
+          <img src="assets/drop-hoodie-1.jpg" alt="IRL Customs hoodie 1" />
+          <div class="card-body">
+            <h3>Blackout Hoodie v1</h3>
+            <p>Matte print, sleeve hit, stealth chest mark.</p>
+            <button class="btn block" disabled>Notify on Release</button>
+          </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="card">
+          <div class="tag">Prototype</div>
+          <img src="assets/drop-hoodie-2.jpg" alt="IRL Customs hoodie 2" />
+          <div class="card-body">
+            <h3>Cathedral Glass Tee</h3>
+            <p>Gothic window graphic. Heavyweight tee.</p>
+            <button class="btn block" disabled>Notify on Release</button>
+          </div>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="card">
+          <div class="tag hot">Limited</div>
+          <img src="assets/drop-hat-1.jpg" alt="IRL Customs hat" />
+          <div class="card-body">
+            <h3>Offset Trucker</h3>
+            <p>Raised stitch logo. Low-profile fit.</p>
+            <button class="btn block" disabled>Notify on Release</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about wrap">
+      <div class="about-media">
+        <img src="assets/garage.jpg" alt="IRL Customs shop" />
+      </div>
+      <div class="about-copy">
+        <h2>Built • Not Pretend</h2>
+        <p>We design from the shop floor — trucks, metal, glass, and late-night edits. 
+           IRL Customs is where real builds meet clean design.</p>
+        <ul>
+          <li>Premium blanks, heavy GSM</li>
+          <li>Small-batch runs</li>
+          <li>Designs inspired by real projects</li>
+        </ul>
+        <a class="btn" href="#notify">Join the List</a>
+      </div>
+    </section>
+
+    <!-- NOTIFY -->
+    <section id="notify" class="notify">
+      <div class="wrap narrow">
+        <h2>Be first to know</h2>
+        <p>Get early access to drops and giveaways.</p>
+        <form class="signup" action="https://formspree.io/f/your-id" method="POST">
+          <input type="email" name="email" placeholder="your@email.com" required />
+          <button class="btn primary" type="submit">Notify Me</button>
+        </form>
+        <small>Zero spam. Unsubscribe anytime.</small>
+      </div>
+    </section>
+
+    <!-- SOCIAL -->
+    <section id="social" class="wrap social">
+      <h2>Follow the Build</h2>
+      <div class="icons">
+        <a aria-label="TikTok" href="https://tiktok.com/@yourhandle" target="_blank" rel="noopener">
+          <!-- TikTok SVG -->
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M21 8.5a7.5 7.5 0 0 1-5-1.9V16a6 6 0 1 1-6-6c.3 0 .7 0 1 .1V13a3 3 0 1 0 3 3V2h3a7.5 7.5 0 0 0 4 3v3.5z"/></svg>
+        </a>
+        <a aria-label="Instagram" href="https://instagram.com/yourhandle" target="_blank" rel="noopener">
+          <!-- IG SVG -->
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/></svg>
+        </a>
+        <a aria-label="YouTube" href="https://youtube.com/@yourhandle" target="_blank" rel="noopener">
+          <!-- YT SVG -->
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M23 7.5s-.2-1.7-.9-2.4A3 3 0 0 0 20 4C17 4 12 4 12 4s-5 0-8 .1A3 3 0 0 0 2 5.1C1.3 5.8 1 7.5 1 7.5S.8 9.6.8 11.7v.6C.8 14.4 1 16.5 1 16.5s.2 1.7.9 2.4A3 3 0 0 0 4 20c3 .1 8 .1 8 .1s5 0 8-.1a3 3 0 0 0 2.1-1.1c.7-.7.9-2.4.9-2.4s.2-2.1.2-4.2v-.6c0-2.1-.2-4.2-.2-4.2zM9.8 14.7V8.9l5.5 2.9-5.5 2.9z"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 IRL Customs • Built IRL</p>
+  </footer>
+
+  <script>
+    // mobile menu
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.links');
+    burger.addEventListener('click', () => {
+      const open = burger.getAttribute('aria-expanded') === 'true';
+      burger.setAttribute('aria-expanded', String(!open));
+      nav.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
